@@ -1,0 +1,19 @@
+theme: jekyll-theme-minimal
+title: Vocab2 - Vocabulary Learning Platform
+description: Learn and master vocabulary with an interactive platform
+author: le1tuan
+
+# Navigation
+nav:
+  - title: Home
+    url: /
+  - title: Features
+    url: /features/
+  - title: Getting Started
+    url: /getting-started/
+  - title: About
+    url: /about/
+
+# Other settings
+markdown: kramdown
+permalink: /:title/
