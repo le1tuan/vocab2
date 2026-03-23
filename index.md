@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 description: Learn and master vocabulary with an interactive platform
 ---

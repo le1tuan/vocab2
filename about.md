@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: About
 description: Learn about Vocab2
+permalink: /about/
 ---
 
 # About Vocab2

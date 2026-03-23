@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Features
 description: Explore Vocab2's powerful learning features
+permalink: /features/
 ---
 
 # Features

@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Getting Started
 description: Start your vocabulary learning journey
+permalink: /getting-started/
 ---
 
 # Getting Started with Vocab2

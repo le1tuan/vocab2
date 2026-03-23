@@ -1,19 +1,28 @@
-theme: jekyll-theme-minimal
-title: Vocab2 - Vocabulary Learning Platform
+# GitHub Pages Settings
+remote_theme: jekyll/minima
+theme: minima
+markdown: kramdown
+highlighter: rouge
+
+# Site Settings
+title: Vocab2
 description: Learn and master vocabulary with an interactive platform
 author: le1tuan
+url: https://le1tuan.github.io
+baseurl: /vocab2
 
-# Navigation
-nav:
-  - title: Home
-    url: /
-  - title: Features
-    url: /features/
-  - title: Getting Started
-    url: /getting-started/
-  - title: About
-    url: /about/
+# Defaults
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: page
 
-# Other settings
-markdown: kramdown
-permalink: /:title/
+# Permalink structure
+permalink: pretty
+
+# Build settings
+safe: true
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
