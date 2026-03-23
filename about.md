@@ -7,10 +7,6 @@ permalink: /about/
 
 # About Vocab2
 
-**Navigation:** [Home](/) | [Features](/features/) | [Getting Started](/getting-started/) | [About](/about/)
-
----
-
 ---
 
 ## 🧾 Topic 16: Formal Verbs (thay thế từ basic)

@@ -1,5 +1,4 @@
 # GitHub Pages Settings
-remote_theme: jekyll/minima
 theme: minima
 markdown: kramdown
 highlighter: rouge
@@ -22,7 +21,9 @@ defaults:
 permalink: pretty
 
 # Build settings
-safe: true
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

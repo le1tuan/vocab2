@@ -7,10 +7,6 @@ permalink: /features/
 
 # Features
 
-**Navigation:** [Home](/) | [Features](/features/) | [Getting Started](/getting-started/) | [About](/about/)
-
----
-
 ---
 
 ## 📈 Topic 6: Change & Development

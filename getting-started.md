@@ -7,10 +7,6 @@ permalink: /getting-started/
 
 # Getting Started with Vocab2
 
-**Navigation:** [Home](/) | [Features](/features/) | [Getting Started](/getting-started/) | [About](/about/)
-
----
-
 ---
 
 ## 🧩 Topic 11: Abstract Concepts (rất hay gặp trong Writing Task 2)

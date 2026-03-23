@@ -1,0 +1,55 @@
+---
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="toc" id="toc">
+    <div class="toc-title">📑 Table of Contents</div>
+    <div class="toc-content" id="toc-content"></div>
+  </div>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const content = document.querySelector('.post-content');
+  const tocContent = document.getElementById('toc-content');
+  const headings = content.querySelectorAll('h2, h3');
+  
+  if (headings.length === 0) {
+    document.getElementById('toc').style.display = 'none';
+    return;
+  }
+
+  const tocList = document.createElement('ul');
+  
+  headings.forEach((heading, index) => {
+    if (!heading.id) {
+      heading.id = 'heading-' + index;
+    }
+
+    const li = document.createElement('li');
+    const a = document.createElement('a');
+    a.href = '#' + heading.id;
+    a.textContent = heading.textContent;
+
+    li.appendChild(a);
+    
+    if (heading.tagName === 'H3') {
+      li.style.marginLeft = '1rem';
+    }
+
+    tocList.appendChild(li);
+  });
+
+  tocContent.appendChild(tocList);
+});
+</script>

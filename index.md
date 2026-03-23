@@ -1,12 +1,11 @@
 ---
-layout: home
+layout: page
 title: Home
 description: Learn and master vocabulary with an interactive platform
+permalink: /
 ---
 
 # Welcome to Vocab2
-
-**Navigation:** [Home](/) | [Features](/features/) | [Getting Started](/getting-started/) | [About](/about/)
 
 # Academic Word List (AWL) – Organized by Topics
 
