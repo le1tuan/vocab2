@@ -92,6 +92,26 @@ tr:nth-child(even) {
   text-decoration: underline;
 }
 
+/* Navigation */
+.site-nav {
+  background-color: #f6f8fa;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.site-nav a {
+  margin: 0 1rem;
+  color: #0366d6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
   .wrapper {
